@@ -21,13 +21,13 @@ ecsim --sample SAMPLE_NAME (required) \
       --amp AMPLIFIED_LENGTH (default=5000) \
       --seed RANDOM_SEED (default=None) \
       --simple-ratio SIMPLE_DNA_RATIO (default is calculated from profile) \
-      --simple-profile SIMPLE_PROFILE_BEDFILE () \
-      --chimeric-profile CHIMERIC_PROFILE_BEDFILE \
-      --ont-model PBSIM2_MODEL_NAME \
-      --ont-mean ONT_READ_LENGTH_MEAN \
-      --ont-std ONT_READ_LENGTH_STD \
-      --sr-platform ILLUMINA_PLATFORM \
-      --sr-mean ILLUMINA_INSERT_LENGTH_MEAN \
-      --sr-std ILLUMINA_INSERT_LENGTH_STD \
-      --sr-readlen ILLUMINA_READ_LENGTH
+      --simple-profile SIMPLE_PROFILE_BEDFILE (containing 5 columns including `chromatin start end length ecID`) \
+      --chimeric-profile CHIMERIC_PROFILE_BEDFILE (containing 5 columns including `chromatin start end length ecID`) \
+      --ont-model PBSIM2_MODEL_NAME (default='R94') \
+      --ont-mean ONT_READ_LENGTH_MEAN (default=3000) \
+      --ont-std ONT_READ_LENGTH_STD (default=2500) \
+      --sr-platform ILLUMINA_PLATFORM (default='HS25') \
+      --sr-mean ILLUMINA_INSERT_LENGTH_MEAN (default=400) \
+      --sr-std ILLUMINA_INSERT_LENGTH_STD (default=125) \
+      --sr-readlen ILLUMINA_READ_LENGTH (default=150)
 ```
