@@ -8,7 +8,11 @@ We created a Python pipeline called ecsim to simulate eccDNA datasets containing
 cd $ecsim
 pip install .
 ```
-
+### Dependancies
+```
+ART
+pbsim2
+```
 ### Usage
 ```
 ecsim --sample SAMPLE_NAME (required) \
