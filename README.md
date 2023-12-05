@@ -46,7 +46,7 @@ ecsim --sample SAMPLE_NAME (required) \
 * [1. Notebook for compare statistics between given data and simulated data]((scripts/001_Simulated_Visualization.ipynb))
 * [2. Shell scripts to run pipelines for eccDNA identification](scripts/000_Upstream_analysis_pipeline_detecting_eccDNA.ipynb)
 * [3. Notebook for evaluation of performance of pipelines for short-read data analysis](scripts/002_ShortRead_Evaluation.ipynb)
-* [4. Notebook for evaluation of performance of pipelines for short-read data analysis](scripts/003_LongRead_Evaluation.ipynb)
+* [4. Notebook for evaluation of performance of pipelines for long-read data analysis](scripts/003_LongRead_Evaluation.ipynb)
 
 ## Latest updates
 ### version 1.0.0 Nov 2013
