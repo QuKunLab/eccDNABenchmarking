@@ -11,8 +11,8 @@ import sys
 import argparse
 from os.path import exists,join
 from importlib.resources import files
-from .simulate import seqsim, libsim, fqsim
-from .utils import utilities
+from simulate import seqsim, libsim, fqsim
+from utils import utilities
 
 class sim_all(object):
 
