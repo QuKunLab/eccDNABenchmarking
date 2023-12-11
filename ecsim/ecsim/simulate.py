@@ -6,7 +6,7 @@ import subprocess as sp
 import multiprocessing as mp
 from importlib.resources import files
 from os.path import exists,join,split
-from .utils import utilities
+from utils import utilities
 
 class profile(object):
     '''
