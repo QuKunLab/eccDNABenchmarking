@@ -7,7 +7,7 @@ We created a Python pipeline called ecsim to simulate eccDNA datasets containing
 ##### Note: To run this pipeline to generate simulated datasets, please ensure that `pysam`, `art`, and `pbsim2` have already been installed.
 ##### Create a environment to run ecsim. It would take several minutes to create the environment. 
 ```
-conda env create -f enviroment.yaml 
+conda env create -f environment.yaml 
 ```
 or
 ```
