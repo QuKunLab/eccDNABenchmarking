@@ -1,0 +1,3 @@
+# ecsim/MANIFEST.in
+
+recursive-include ecsim/resource/pbsim2 *
