@@ -26,7 +26,8 @@ We collected 7 eccDNA datasets and designed a pipeline to simulate eccDNA data g
 - Upload ecsim for simulated eccDNA datasets
 
 ## Requirements
-#### Note: To run this pipeline to simulate data, please ensure that `pysam`, `art`, `seqkit`, and `pbsim2` have already been installed.
+#### Note1: The current version of `ecsim` only supports Linux and MacOS. 
+#### Note2: To run `ecsim`, please ensure that `pysam`, `art`, `seqkit`, and `pbsim2` have already been installed.
 It would take several minutes to create the environment. 
 ```
 git clone https://github.com/QuKunLab/eccDNABenchmarking.git
@@ -35,9 +36,10 @@ conda env create -f environment.yaml
 ```
 or
 ```
-conda create -n ecsim -c bioconda pysam pbsim2 art seqkit python=3.9
+conda create -n ecsim -c bioconda pysam=0.21.0 pbsim2=2.0.1 art=3.19.15 seqkit=2.6.1 python=3.9
 ```
 ## Installation
+It would take several seconds to install ecsim.
 ```
 conda activate ecsim
 cd eccDNABenchmarking/ecsim
@@ -69,6 +71,6 @@ ecsim --sample SAMPLE_NAME (required) \
 ```
 The template bed files (data used in this project) are stored in [resource directory](ecsim/ecsim/resource/template). If you not specify template files, default `simple_template` is template.simple.bed and default `chimeric_template` is template.chimeric.bed.
 
-
+Expected Output: `ecsim` will generate files contaning simulated eccDNA information in `bed` and `FASTA` format, and `Illumina` and `Oxford Nanopore` sequencing data in `FASTQ` fomat. 
 
 
