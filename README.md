@@ -71,6 +71,6 @@ ecsim --sample SAMPLE_NAME (required) \
 ```
 The template bed files (data used in this project) are stored in [resource directory](ecsim/ecsim/resource/template). If you not specify template files, default `simple_template` is template.simple.bed and default `chimeric_template` is template.chimeric.bed.
 
-Expected Output: `ecsim` will generate files contaning simulated eccDNA information in `bed` and `FASTA` format, and `Illumina` and `Oxford Nanopore` sequencing data in `FASTQ` fomat. 
+Expected Output: `ecsim` will generate files contaning simulated eccDNA information in `bed` and `FASTA` format, and Simulated `Illumina` and `Oxford Nanopore` sequencing data in `FASTQ` fomat. 
 
 
