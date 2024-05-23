@@ -27,7 +27,7 @@ We collected 7 eccDNA datasets and designed a pipeline to simulate eccDNA data g
 
 ## Requirements
 #### Note1: The current version of `ecsim` only supports Linux and MacOS. 
-#### Note2: To run `ecsim`, please ensure that `pysam`, `art`, `seqkit`, and `pbsim2` have already been installed.
+#### Note2: To run `ecsim`, please ensure that `pysam`, `art`, `seqkit`, `pandas`, `numpy`, and `pbsim2` have already been installed.
 It would take several minutes to create the environment. 
 ```
 git clone https://github.com/QuKunLab/eccDNABenchmarking.git
@@ -36,7 +36,7 @@ conda env create -f environment.yaml
 ```
 or
 ```
-conda create -n ecsim -c bioconda pysam=0.21.0 pbsim2=2.0.1 art=3.19.15 seqkit=2.6.1 python=3.9
+conda create -n ecsim -c bioconda pysam=0.21.0 pbsim2=2.0.1 art=3.19.15 seqkit=2.6.1 python=3.9 pandas=2.0.2 numpy=1.25.0
 ```
 ## Installation
 It would take several seconds to install ecsim.
