@@ -1,3 +1,4 @@
 # ecsim/MANIFEST.in
 
 recursive-include ecsim/resource/pbsim2 *
+recursive-include ecsim/resource/template *
