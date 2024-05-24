@@ -13,8 +13,8 @@ setup(
     include_package_data=True,
     package_data={
         'ecsim': [
-            'resource/pbsim2/*model'，
-            'resource/template/*bed'，  
+            'resource/pbsim2/*model',
+            'resource/template/*bed'  
         ],
     },
     entry_points={
