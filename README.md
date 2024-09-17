@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13769429.svg)](https://doi.org/10.5281/zenodo.13769429)
 # Comparative analysis of methodologies for detecting eccDNA
 ![](figure/Overview.png "Overview")
 
